@@ -6,7 +6,7 @@
 int hailstone(int n, std::vector<int> &hailstone_number);
 int main()
 {
-    int n=27;
+    int n=15;
     std::vector<int> hailstone_number;
     std::cout<< hailstone(n,hailstone_number) <<std::endl;
     std::vector<int>::iterator ite=hailstone_number.begin();
