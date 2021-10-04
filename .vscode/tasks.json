@@ -9,8 +9,10 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${workspaceFolder}\\executable_file\\${fileBasenameNoExtension}.exe"
+				"${workspaceFolder}\\executable_file\\${fileBasenameNoExtension}.exe",
 				//"${fileDirname}\\executable_file\\${fileBasenameNoExtension}.exe"
+				"-I",
+                "E:/vcpkg/installed/x64-windows/include"
 			],
 			"options": {
 				"cwd": "E:/MinGW64/mingw64/bin"
