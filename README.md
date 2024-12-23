@@ -1,5 +1,3 @@
-# VScode与git的学习记录
-- 2021_9_24 VScode与github联动的第一次尝试！
-- 2021_9_25 测试了一下本地仓库和远程仓库的联动！
-- 2021_9_28 提交一次！
-- 2021_10_4 测试了vcpkg在vccode中的应用！
+# 配置说明
+- 使用msys2，使用pacman管理包
+- 使用库时要把头文件添加在c_cpp_properties.json中，也要添加在tasks.json中。
