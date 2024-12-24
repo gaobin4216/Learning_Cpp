@@ -1,4 +1,4 @@
 # 配置说明
-- 使用msys2，使用pacman管理包
-- 使用库时要把头文件添加在c_cpp_properties.json中，也要添加在tasks.json中。
+- 安装msys2，使用pacman安装mingw和GCC
 - 环境变量设置为C:/msys64/mingw64/bin，不要ucrt64
+- vcpkg和vs搭配比较好，和vscode就算了，vcpkg在windows上是和msvc绑定的，若使用g++，库文件调不到。
