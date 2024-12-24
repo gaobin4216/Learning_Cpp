@@ -6,21 +6,10 @@
             "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
-                "-I",
-                "C:/msys64/mingw64/include/opencv4",
-                "-I",
-                "C:/msys64/mingw64/include/eigen3",
                 "-g",
                 "${file}",
-                "-L",
-                "C:/msys64/mingw64/lib", 
-                "-lopencv_core",                // 链接 OpenCV 核心库
-                "-lopencv_imgcodecs",           // 链接 OpenCV 图像解码库
-                "-lopencv_highgui",
-                "-lopencv_imgproc",
                 "-o",
                 "${fileDirname}/../executable_file/${fileBasenameNoExtension}.exe"
-                
             ],
             "options": {
                 "cwd": "${fileDirname}"
