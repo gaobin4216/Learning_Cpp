@@ -6,3 +6,8 @@
 ### 最佳搭配：
 Visiual Studio + vcpkg + windows版cmake（编译vcpkg）   
 Vscode + msys2的mingw的g++和gdb + cmake，不使用三方库
+
+
+# Cmake的逻辑
+    一个文件夹下包含include、src、bulid、CmakeLists.txt
+    在bulid下先cmake..，然后make，然后运行生成的可执行文件
