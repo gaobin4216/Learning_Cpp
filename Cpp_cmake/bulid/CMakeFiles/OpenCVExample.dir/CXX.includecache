@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robot/learn/Learning_Cpp/Cmake_file/src/main.cpp
+/home/robot/learn/Learning_Cpp/Cpp_cmake/src/main.cpp
 opencv2/opencv.hpp
 -
 

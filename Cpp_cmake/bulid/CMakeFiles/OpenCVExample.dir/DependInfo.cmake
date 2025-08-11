@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/robot/learn/Learning_Cpp/Cmake_file/src/main.cpp" "/home/robot/learn/Learning_Cpp/Cmake_file/bulid/CMakeFiles/OpenCVExample.dir/src/main.cpp.o"
+  "/home/robot/learn/Learning_Cpp/Cpp_cmake/src/main.cpp" "/home/robot/learn/Learning_Cpp/Cpp_cmake/bulid/CMakeFiles/OpenCVExample.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
