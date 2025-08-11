@@ -1,4 +1,6 @@
-# 非cmake方式运行Cpp
+# 打开工作包后，单独打开cmake和normal两个文件
+
+## 非cmake方式运行Cpp
 ### 配置说明
 - 安装msys2，使用pacman安装mingw和GCC
 - 环境变量设置为C:/msys64/mingw64/bin，不要ucrt64
@@ -9,6 +11,6 @@ Visiual Studio + vcpkg + windows版cmake（编译vcpkg）
 Vscode + msys2的mingw的g++和gdb + cmake，不使用三方库
 
 
-# Cmake方式运行Cpp
+## Cmake方式运行Cpp
     一个文件夹下包含include、src、bulid、CmakeLists.txt
     在bulid下先cmake..，然后make，然后运行生成的可执行文件
