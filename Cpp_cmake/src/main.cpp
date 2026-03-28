@@ -14,6 +14,7 @@ int main() {
     cv::imshow("Display Image", image);
 
     // 等待用户按键
+    
     cv::waitKey(0);
     std::cout<<"测试一下opencv"<<std::endl;
 
