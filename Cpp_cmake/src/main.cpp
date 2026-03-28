@@ -1,22 +1,20 @@
 #include <opencv2/opencv.hpp>
+#include <iostream>
+
+using namespace std;
 
 int main() {
-    // 读取图像
     cv::Mat image = cv::imread("example.jpg");
 
-    // 检查图像是否加载成功
     if (image.empty()) {
-        std::cerr << "Could not open or find the image!" << std::endl;
+        cerr << "图片不存在！" << endl;
         return -1;
     }
 
-    // 显示图像
-    cv::imshow("Display Image", image);
+    cout << "图片加载成功！OpenCV 正常工作！" << endl;
 
-    // 等待用户按键
-    
-    cv::waitKey(0);
-    std::cout<<"测试一下opencv"<<std::endl;
+    // 关键：不显示，而是保存成新图片
+    cv::imwrite("output.jpg", image);
 
     return 0;
 }
